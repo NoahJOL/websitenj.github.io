@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #fff; /* Fond blanc */
+    color: #000; /* Écritures noires */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.header {
+    background-color: #fff; /* Fond blanc */
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    color: #ffa500; /* Orange */
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #ffa500; /* Orange */
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #ff8c00; /* Orange plus foncé */
+}
+
+.hero {
+    background: url("image/home.jpg") no-repeat center center/cover; /* Utilisez le chemin correct vers votre image */
+    padding: 100px 0;
+    text-align: center;
+    color: #fff; /* Écritures en blanc */
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: auto;
+}
+
+.hero h1, .hero p {
+    color: #fff; /* Assurez-vous que le texte soit en blanc pour contraster avec le fond */
+}
+
+.cta {
+    background-color: #ffa500; /* Orange */
+    color: #fff; /* Écritures en blanc */
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.cta:hover {
+    background-color: #ff8c00; /* Orange plus foncé */
+    transform: scale(1.05);
+}
+
+.projects, .sample-packs {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.project-card, .pack {
+    background-color: #fff; /* Fond blanc */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    transition: transform 0.3s;
+}
+
+.project-card:hover, .pack:hover {
+    transform: translateY(-5px);
+}
+
+.project-card img, .pack img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.project-card h3, .pack h3 {
+    color: #ffa500; /* Orange */
+}
+
+.footer {
+    background-color: #fff; /* Fond blanc */
+    color: #000; /* Écritures noires */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer a {
+    color: #ffa500; /* Orange */
+    text-decoration: none;
+}
